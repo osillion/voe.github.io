@@ -14,7 +14,7 @@ html{
   background-position: center, center;
   background-repeat: no-repeat, no-repeat;
   background-size: 600px 600px, cover;
-  background-attachment: fixed;
+  background-attachment: fixed, fixed;
  
   
 }
@@ -262,7 +262,7 @@ body {
 @media (max-width: 480px) {
             html {
                 background-size: 300px 300px, cover;
-                background-attachment: fixed;
+                background-attachment: fixed, fixed;
                 
             }
             .column h2{
@@ -312,7 +312,7 @@ body {
         @media (min-width: 481px) and (max-width: 767px) {
             html {
                 background-size: 400px 400px, cover;
-                background-attachment: fixed;
+                background-attachment: fixed, fixed;
             }
             .column h2{
               font-size: 32px;
@@ -362,7 +362,7 @@ body {
         @media (min-width: 768px) and (max-width: 1124px){
             html {
                 background-size: 500px 500px, cover;
-                background-attachment: fixed;
+                background-attachment: fixed, fixed;
             }
             .column h2 {
               font-size: 40px;
